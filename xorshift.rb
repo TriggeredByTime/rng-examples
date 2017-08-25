@@ -8,6 +8,8 @@
 # computer architectures. Like all LFSRs, the parameters have to be chosen very
 # carefully in order to achieve a long period.
 #
+# @see https://en.wikipedia.org/wiki/Xorshift
+#
 def xorshift(states)
   x = states[0]
   x ^= x << 13

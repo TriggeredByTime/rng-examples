@@ -7,6 +7,8 @@
 # digits of the result would be the next number in the sequence, and returned
 # as the result. This process is then repeated to generate more numbers.
 #
+# @see https://en.wikipedia.org/wiki/Middle-square_method
+#
 def middle_square(value)
   # Square the value and convert to String for interpolation
   result = (value**2).to_s

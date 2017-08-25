@@ -13,6 +13,8 @@
 # c, 0 <= c < m, The increment
 # X_0, 0 <= X_0 < m - The seed
 #
+# @see https://en.wikipedia.org/wiki/Linear_congruential_generator
+#
 def linear_congruential_generator(value)
   (@a * value + @c) % @m
 end

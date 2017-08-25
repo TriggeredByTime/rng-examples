@@ -7,9 +7,9 @@
 # digits of the result would be the next number in the sequence, and returned
 # as the result. This process is then repeated to generate more numbers.
 #
-def middle_square(seed)
-  # Square the seed and convert to String for interpolation
-  result = (seed**2).to_s
+def middle_square(value)
+  # Square the value and convert to String for interpolation
+  result = (value**2).to_s
   # Pad with leading zeroes if not 8 digits
   while result.length < 8
     result = result.prepend('0')
@@ -33,4 +33,4 @@ while !output_array.include?(current_value)
   current_value = middle_square(current_value)
 end
 
-puts "#{seed} produced #{output_array.count} randomly generated numbers before repating"
+puts "\n#{seed} produced #{output_array.count} randomly generated numbers before repating"

@@ -1,5 +1,3 @@
-require 'pry'
-
 ##
 # Xorshift random number generators are a class of pseudorandom number generators
 # that were discovered by George Marsaglia. Specifically, they are a subset of
